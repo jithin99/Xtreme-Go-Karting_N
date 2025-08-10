@@ -1,0 +1,2 @@
+import React from 'react'
+export default function Gallery(){return(<section id='gallery' className='max-w-7xl mx-auto px-4 py-12 md:py-16'><h2 className='text-2xl md:text-3xl font-bold mb-6'>Gallery</h2><div className='grid grid-cols-2 md:grid-cols-4 gap-3'>{Array.from({length:8}).map((_,i)=>(<div key={i} className='aspect-video rounded-xl bg-gradient-to-br from-zinc-200 to-zinc-300'/>))}</div></section>)}
